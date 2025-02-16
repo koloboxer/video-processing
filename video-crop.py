@@ -22,6 +22,8 @@
 #    argument #2: time in the input video in the form "hh:mm:ss"
 #    argument #3: duration to cut in seconds
 
+# We need to set the screen width and height because if the image or video size is larger
+# than the screen size, we need to scale it in order to fit the screen.
 screenWidth = 1920
 screenHeight = 1080
 
